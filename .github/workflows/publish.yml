@@ -28,6 +28,9 @@ jobs:
         run: npm run test
       - name: Bump version
         run: |
+          git config --global user.name 'Automated publish'
+          git config --global user.email '$YOUR_USERNAME@users.noreply.github.com'
           npm version patch -m "CI: bump version to %s"
+          git push && git push --tags
       - name: Publish package
         run: npm publish
