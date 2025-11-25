@@ -1,6 +1,9 @@
 {
   "name": "express-shared-lib",
   "version": "0.0.8",
+  "repository": {
+    "url": "https://github.com/juniorhamish/shared-express-app"
+  },
   "description": "Shared Express.js app with optional middleware configuration",
   "type": "module",
   "main": "dist/index.js",
