@@ -1,6 +1,6 @@
 {
   "name": "express-shared-lib",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Shared Express.js app with optional middleware configuration",
   "type": "module",
   "main": "dist/index.js",
